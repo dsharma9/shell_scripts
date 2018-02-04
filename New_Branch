@@ -3,6 +3,7 @@
 
 #!/bin/bash
 #this program is to get the absulute path of the folders inside given folder as an argument to a file. 
+
 read folder
 
 ls -lR $folder | awk -F " " '{print $2}'  > absulute_foler_path
@@ -12,7 +13,7 @@ cat absulute_folder_path
  # adding new function to this program but need to do in different version of this program
  
  
- #Version 2.0
+ #Version 2.5
 
 
 while $i read
