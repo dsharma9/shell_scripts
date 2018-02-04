@@ -12,4 +12,12 @@ cat absulute_folder_path
  # adding new function to this program but need to do in different version of this program
  
  
- #Version 1.1
+ #Version 2.0
+
+
+while $i read
+do 
+
+echo $i
+
+done < absulute_folder_path
