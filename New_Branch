@@ -8,3 +8,8 @@ read folder
 ls -lR $folder | awk -F " " '{print $2}'  > absulute_foler_path
 
 cat absulute_folder_path
+ 
+ # adding new function to this program but need to do in different version of this program
+ 
+ 
+ #Version 1.1
