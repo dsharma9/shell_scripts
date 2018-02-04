@@ -1,0 +1,10 @@
+#this is how we create new branch 
+#to keep track of versions
+
+#!/bin/bash
+#this program is to get the absulute path of the folders inside given folder as an argument to a file. 
+read folder
+
+ls -lR $folder | awk -F " " '{print $2}'  > absulute_foler_path
+
+cat absulute_folder_path
