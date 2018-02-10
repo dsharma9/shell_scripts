@@ -22,4 +22,5 @@ do
 echo $i
 
 done < absulute_folder_path
-#first time modifing from Linux terminal
+#making conflict
+# 2nd time editing from UI
