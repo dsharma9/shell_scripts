@@ -22,4 +22,8 @@ do
 echo $i
 
 done < absulute_folder_path
+<<<<<< qa
+#this belongs to QA branch
+Saving this file
 # This file belongs to Patch Branch
+>>>>>> patch
