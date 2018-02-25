@@ -1,6 +1,6 @@
 #!/bin/bash
 echo Program to conunt the sum of argument 
-
+echo "======================Edited sum.sh file on `date`======================================="
 
 if [ $# -ge 10 ]; then 
 
